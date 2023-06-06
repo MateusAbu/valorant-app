@@ -20,7 +20,7 @@ interface Callout {
     location: Location;
 }
 
-interface Location {
+export interface Location {
     x: number;
     y: number;
 }
