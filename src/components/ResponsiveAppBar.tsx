@@ -5,7 +5,7 @@ import { AppBar, Box, Toolbar, Typography, IconButton, Button, Menu, Container, 
 import MenuIcon from '@mui/icons-material/Menu';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Mapas',];
+const pages = ['Mapas', 'Armas'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {

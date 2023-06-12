@@ -4,6 +4,7 @@ import ResponsiveAppBar from './components/ResponsiveAppBar';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Mapas from './pages/Mapas';
+import Armas from './pages/Armas';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/mapas" element={<Mapas />} />
+        <Route path="/armas" element={<Armas />} />
       </Routes>
     </BrowserRouter>
   );
