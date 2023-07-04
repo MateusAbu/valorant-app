@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
 type AgentImageProps = {
-    displayName: string;
-    fullPortrait: string;
-};
+    displayName: string | undefined
+    fullPortrait: string | undefined
+}
 
 const AgentImage: React.FC<AgentImageProps> = ({ displayName, fullPortrait }) => {
     return (
@@ -11,7 +11,7 @@ const AgentImage: React.FC<AgentImageProps> = ({ displayName, fullPortrait }) =>
             <h2 className="text-white text-5xl font-bold mt-2">{displayName}</h2>
             <img style={{ width: 1200 }} src={fullPortrait} alt="FullBodyAgente" />
         </div>
-    );
-};
+    )
+}
 
-export default AgentImage;
+export default AgentImage

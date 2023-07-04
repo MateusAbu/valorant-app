@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Mapas from './pages/Mapas';
 import Armas from './pages/Armas';
+import Agents from './pages/Agents';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/mapas" element={<Mapas />} />
         <Route path="/armas" element={<Armas />} />
+        <Route path="/agents" element={<Agents />} />
       </Routes>
     </BrowserRouter>
   );
